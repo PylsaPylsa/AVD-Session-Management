@@ -14,11 +14,10 @@ This PowerShell script uses a form to provide a GUI to some of the AZ PowerShell
 
 ## Pre-configuration
 
-The script will ask for your Tenant ID and Resource group on start but you may save these to the registry to prevent it from asking each time:
+The script will ask for your Tenant ID on start but you may save this to the registry to prevent it from asking each time:
 
 ```
 [HKEY_LOCAL_MACHINE\SOFTWARE\Pylsa]
-"WVDResourceGroupName"=""
 "TenantId"=""
 ```
 
